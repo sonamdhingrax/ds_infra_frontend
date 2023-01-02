@@ -2,7 +2,9 @@
 
 Description for how CI/CD works with AWS Amplify and how it is setup for the ds_frontend web app.
 
-AWS Amplify provides git-based workflow for hosting serverless web apps with continuous deployment.Below are the steps for the setup. 
+AWS Amplify provides git-based workflow for hosting serverless web apps with continuous deployment.Below are the steps for the setup. Below is a screenshot of the CI/CD pipeline for master and rc branches.
+
+![CI/CD Pipeline](/AWS_Amplify_CICD_Pipeline.png?raw=true "CI/CD Pipeline")
 
 ## Pre-Requisites
 1. AWS Amplify needs access to the github repository to connect with the web app we will be hosting. To setup navigate to [https://github.com/apps/aws-amplify-eu-west-2](https://github.com/apps/aws-amplify-eu-west-2) and select the repositories you need to connect AWS Amplify to. We have set this up for the `sonamdhingrax/ds_frontend repo`.
